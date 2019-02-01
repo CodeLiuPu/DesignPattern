@@ -1,4 +1,4 @@
-package com.update.pattern.structural.adapter;
+package com.update.pattern.structural.adapter.objectadapter;
 
 /**
  * @author : liupu.
