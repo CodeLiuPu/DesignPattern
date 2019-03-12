@@ -15,6 +15,6 @@ public class Test {
         courseVideoContext.pause();
         System.out.println("当前状态 " + courseVideoContext.getCourseVideoState().getClass().getSimpleName());
 
-        
+
     }
 }
