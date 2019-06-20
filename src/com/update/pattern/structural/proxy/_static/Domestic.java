@@ -1,4 +1,4 @@
-package com.update.pattern.structural.proxy;
+package com.update.pattern.structural.proxy._static;
 
 /**
  * @author : liupu.

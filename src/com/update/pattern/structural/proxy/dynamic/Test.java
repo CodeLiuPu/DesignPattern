@@ -1,5 +1,4 @@
-package com.update.pattern.structural.proxy;
-
+package com.update.pattern.structural.proxy.dynamic;
 
 import java.lang.reflect.Proxy;
 
@@ -10,7 +9,7 @@ public class Test {
 
         ClassLoader classLoader = domestic.getClass().getClassLoader();
 
-        People oversea = (People) Proxy.newProxyInstance(classLoader,new Class[]{People.class},proxy);
+        People oversea = (People) Proxy.newProxyInstance(classLoader, new Class[]{People.class}, proxy);
         oversea.buy();
     }
 }
